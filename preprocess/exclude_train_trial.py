@@ -1,9 +1,7 @@
-
-
 import json
 import ipdb
 
-resource_dir = 'resources'
+resource_dir = '../resources'
 
 for year in ['semeval14']:
     for domain in ['restaurants', 'laptops']:

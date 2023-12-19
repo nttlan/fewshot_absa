@@ -1,11 +1,15 @@
-
 import json
 import os, sys
 from glob import glob
 import ipdb
+import shutil
 
 data_dir = '../resources'
 gpt2_dir = 'gpt2'
+
+if os.path.exists(os.path.join(data_dir, gpt2_dir)):
+    shutil.rmtree(os.path.join(data_dir, gpt2_dir))
+os.makedirs(os.path.join(data_dir, gpt2_dir))
 
 # preprocess semeval14
 data_name = 'semeval14'
@@ -42,7 +46,7 @@ data_name = 'semeval16'
 for domain in ['restaurants', 'laptops']:
     for split in ['train', 'test', 'trial']:
         for target_name in ['aspect_category', 'aspect_term']:
-            for task in ['sb1', 'sb2']:
+            for task in ['sb1']:
                 filename = os.path.join(data_dir, data_name, f"ABSA16_{domain}_{task}_{target_name}_{split}.json")
                 print(f"processing {filename}")
                 data = json.load(open(filename, 'rt'))
