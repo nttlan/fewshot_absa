@@ -69,7 +69,7 @@ for data_name in ['semeval14']:
 
 for data_name in ['semeval16']:
     for domain in ['restaurants']:
-        for task in ['sb1']:
+        for task in ['sb1', 'sb2']:
             for split in ['train', 'test']:
 
                 filename_term = os.path.join(data_dir, data_name, f"ABSA16_{domain}_{task}_aspect_term_{split}.json")

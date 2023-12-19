@@ -11,8 +11,8 @@ python prepare_absa14_data.py
 
 # post process raw files (ABSA16)
 python prepare_absa16_sb1_data.py
-# python prepare_absa16_sb2_data.py
-# python prepare_absa16_sb2_aspect_term.py
+python prepare_absa16_sb2_data.py
+python prepare_absa16_sb2_aspect_term.py
 
 # clean train/trial sets
 python exclude_train_trial.py

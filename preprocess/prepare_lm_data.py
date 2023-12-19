@@ -46,7 +46,7 @@ data_name = 'semeval16'
 for domain in ['restaurants', 'laptops']:
     for split in ['train', 'test', 'trial']:
         for target_name in ['aspect_category', 'aspect_term']:
-            for task in ['sb1']:
+            for task in ['sb1', 'sb2']:
                 filename = os.path.join(data_dir, data_name, f"ABSA16_{domain}_{task}_{target_name}_{split}.json")
                 print(f"processing {filename}")
                 data = json.load(open(filename, 'rt'))
