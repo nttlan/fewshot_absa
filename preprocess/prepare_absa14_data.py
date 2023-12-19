@@ -47,39 +47,34 @@ for fname in files:
         if 'aspectTerms' in example:
             if isinstance(example['aspectTerms']['aspectTerm'], list):
                 for aspect in example['aspectTerms']['aspectTerm']:
-                    try:
+
                         term = aspect['@term']
-                        polarity = aspect['@polarity']
+                        polarity = aspect['@polarity'] if split != 'test' else ""
                         aspects_term_data.append((clean_text(term), clean_text(polarity)))
-                    except:
-                        ipdb.set_trace()
+
             else:
-                try:
                     aspect = example['aspectTerms']['aspectTerm']
                     term = aspect['@term']
-                    polarity = aspect['@polarity']
+                    polarity = aspect['@polarity'] if split != 'test' else ""
                     aspects_term_data.append((clean_text(term), clean_text(polarity)))
-                except:
-                    ipdb.set_trace()
+
 
         # aspect category
         if 'aspectCategories' in example:
             if isinstance(example['aspectCategories']['aspectCategory'], list):
                 for aspect in example['aspectCategories']['aspectCategory']:
-                    try:
+
                         term = aspect['@category']
-                        polarity = aspect['@polarity']
+                        polarity = aspect['@polarity'] if split != 'test' else ""
                         aspects_category_data.append((clean_text(term), clean_text(polarity)))
-                    except:
-                        ipdb.set_trace()
+
             else:
-                try:
+
                     aspect = example['aspectCategories']['aspectCategory']
                     term = aspect['@category']
-                    polarity = aspect['@polarity']
+                    polarity = aspect['@polarity'] if split != 'test' else ""
                     aspects_category_data.append((clean_text(term), clean_text(polarity)))
-                except:
-                    ipdb.set_trace()
+
 
         text_aspect_term_data.append((text, aspects_term_data))
         text_aspect_category_data.append((text, aspects_category_data))
