@@ -1,4 +1,3 @@
-
 import torch
 import glob
 import random
@@ -10,6 +9,7 @@ import regex as re
 import logging
 logger = logging.getLogger(__name__)
 import ipdb
+from torch.nn import CrossEntropyLoss
 
 
 def compute_label_position_loss(logits, inputs, labels, tokenizer, args):
