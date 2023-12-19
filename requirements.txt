@@ -1,11 +1,12 @@
 regex
 sentencepiece==0.1.94
-transformers==4.0.0
 datasets
 tensorboardX==1.8
 wordninja
-sklearn
+scikit-learn
 ipdb
 nltk
 english_words
 tqdm
+xmltodict
+git+https://github.com/huggingface/transformers.git
