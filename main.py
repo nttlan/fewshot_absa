@@ -285,7 +285,7 @@ def train_epoch(model, tokenizer, optimizer, scheduler, train_dataloader, tr_los
                         step_performance = results['loss']
                         step_metric = 'loss'
 
-                    if step_metric is not 'loss' and step_performance > best_checkpoint_acc:
+                    if step_metric != 'loss' and step_performance > best_checkpoint_acc:
                         logger.info(f"found a better checkpoint @ {global_step}: acc={step_performance}")
                         best_checkpoint_acc = step_performance
                         save_checkpoint(model, optimizer, scheduler, tokenizer, args, global_step)
