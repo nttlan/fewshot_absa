@@ -89,9 +89,3 @@ for fname in files:
 
     with open(os.path.join(root, data_dir, f"{dataname}_aspect_category_{split}.json"), 'wt') as f:
         json.dump(text_aspect_category_data, f, indent=4, sort_keys=True)
-
-    with open(os.path.join(root, data_dir, f"{dataname}_aspect_term_{split}.json"), 'wt') as f:
-        json.dump(text_aspect_term_data, f, indent=4, sort_keys=True)
-
-    with open(os.path.join(root, data_dir, f"{dataname}_aspect_category_{split}.json"), 'wt') as f:
-        json.dump(text_aspect_category_data, f, indent=4, sort_keys=True)

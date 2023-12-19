@@ -91,15 +91,6 @@
             <aspectCategory category="food" polarity="positive"/>
         </aspectCategories>
     </sentence>
-    <sentence id="986">
-        <text>i've noticed megadeth, mr. scruff, st. germain, traditional vietnamese songs, black sabbath, jay-z, and daft punk all being played.</text>
-        <aspectTerms>
-            <aspectTerm term="songs" polarity="neutral" from="71" to="76"/>
-        </aspectTerms>
-        <aspectCategories>
-            <aspectCategory category="ambience" polarity="neutral"/>
-        </aspectCategories>
-    </sentence>
     <sentence id="296">
         <text>They did not have mayonnaise, forgot our toast, left out ingredients (ie cheese in an omelet), below hot temperatures and the bacon was so over cooked it crumbled on the plate when you touched it.</text>
         <aspectTerms>
@@ -349,7 +340,7 @@
     <sentence id="388">
         <text>this little place has a cute interior decor and affordable city prices.</text>
         <aspectTerms>
-            <aspectTerm term="interior deco" polarity="positive" from="29" to="42"/>
+            <aspectTerm term="interior decor" polarity="positive" from="29" to="43"/>
             <aspectTerm term="prices" polarity="positive" from="64" to="70"/>
         </aspectTerms>
         <aspectCategories>
@@ -5158,7 +5149,7 @@
         <text>We had the pot-stickers which were great and a tempura dish that was great.</text>
         <aspectTerms>
             <aspectTerm term="pot-stickers" polarity="positive" from="11" to="23"/>
-            <aspectTerm term="tempura dis" polarity="positive" from="47" to="58"/>
+            <aspectTerm term="tempura dish" polarity="positive" from="47" to="59"/>
         </aspectTerms>
         <aspectCategories>
             <aspectCategory category="food" polarity="positive"/>
@@ -5720,6 +5711,7 @@
         <aspectCategories>
             <aspectCategory category="food" polarity="positive"/>
             <aspectCategory category="ambience" polarity="positive"/>
+            <aspectCategory category="price" polarity="positive"/>
         </aspectCategories>
     </sentence>
     <sentence id="2171">
@@ -8058,7 +8050,7 @@
             <aspectTerm term="server" polarity="positive" from="31" to="37"/>
             <aspectTerm term="wine" polarity="positive" from="67" to="71"/>
             <aspectTerm term="wine" polarity="negative" from="146" to="150"/>
-            <aspectTerm term="price rang" polarity="positive" from="79" to="89"/>
+            <aspectTerm term="price range" polarity="positive" from="79" to="90"/>
             <aspectTerm term="priced" polarity="neutral" from="139" to="145"/>
         </aspectTerms>
         <aspectCategories>
@@ -8648,7 +8640,7 @@
         <text>They also have a back garden open in the summer - cute and French with outdoor seating - what more could you ask for?</text>
         <aspectTerms>
             <aspectTerm term="back garden" polarity="positive" from="17" to="28"/>
-            <aspectTerm term="outdoor seatin" polarity="positive" from="71" to="85"/>
+            <aspectTerm term="outdoor seating" polarity="positive" from="71" to="86"/>
         </aspectTerms>
         <aspectCategories>
             <aspectCategory category="ambience" polarity="positive"/>
@@ -9734,6 +9726,7 @@
         <aspectCategories>
             <aspectCategory category="anecdotes/miscellaneous" polarity="positive"/>
             <aspectCategory category="food" polarity="positive"/>
+            <aspectCategory category="price" polarity="positive"/>
         </aspectCategories>
     </sentence>
     <sentence id="1861">
@@ -11438,7 +11431,7 @@
         <aspectTerms>
             <aspectTerm term="portions" polarity="negative" from="20" to="28"/>
             <aspectTerm term="portion" polarity="positive" from="88" to="95"/>
-            <aspectTerm term="main cours" polarity="negative" from="56" to="66"/>
+            <aspectTerm term="main course" polarity="negative" from="56" to="67"/>
         </aspectTerms>
         <aspectCategories>
             <aspectCategory category="food" polarity="negative"/>
@@ -13233,7 +13226,7 @@
         <aspectTerms>
             <aspectTerm term="prices" polarity="neutral" from="57" to="63"/>
             <aspectTerm term="dinner menu to sit" polarity="neutral" from="25" to="43"/>
-            <aspectTerm term="take ou" polarity="neutral" from="48" to="55"/>
+            <aspectTerm term="take out" polarity="neutral" from="48" to="56"/>
         </aspectTerms>
         <aspectCategories>
             <aspectCategory category="price" polarity="neutral"/>
@@ -13984,7 +13977,7 @@
     <sentence id="343">
         <text>It is obvious that no one in the restaurant has any idea about or experience with Japanese cuisine.</text>
         <aspectTerms>
-            <aspectTerm term="Japanese cuisin" polarity="negative" from="82" to="97"/>
+            <aspectTerm term="Japanese cuisine" polarity="negative" from="82" to="98"/>
         </aspectTerms>
         <aspectCategories>
             <aspectCategory category="food" polarity="negative"/>
@@ -17686,7 +17679,7 @@
         <text>The pesto pizza was excellent, thin-crust pizza with a nice amount of spicy Italian cheese that I'd never heard of before.</text>
         <aspectTerms>
             <aspectTerm term="pesto pizza" polarity="positive" from="4" to="15"/>
-            <aspectTerm term="Italian chees" polarity="positive" from="76" to="89"/>
+            <aspectTerm term="Italian cheese" polarity="positive" from="76" to="90"/>
             <aspectTerm term="thin-crust pizza" polarity="positive" from="31" to="47"/>
         </aspectTerms>
         <aspectCategories>
@@ -18800,12 +18793,6 @@
             <aspectCategory category="service" polarity="negative"/>
         </aspectCategories>
     </sentence>
-    <sentence id="1510">
-        <text>Great deal!</text>
-        <aspectCategories>
-            <aspectCategory category="anecdotes/miscellaneous" polarity="positive"/>
-        </aspectCategories>
-    </sentence>
     <sentence id="2338">
         <text>Stay away from the latter since you won't go for seconds (hint hint).</text>
         <aspectCategories>
@@ -18926,7 +18913,7 @@
         <aspectTerms>
             <aspectTerm term="price" polarity="negative" from="18" to="23"/>
             <aspectTerm term="dish" polarity="negative" from="56" to="60"/>
-            <aspectTerm term="lunch specia" polarity="negative" from="37" to="49"/>
+            <aspectTerm term="lunch special" polarity="negative" from="37" to="50"/>
         </aspectTerms>
         <aspectCategories>
             <aspectCategory category="price" polarity="negative"/>
@@ -20534,18 +20521,6 @@
         </aspectTerms>
         <aspectCategories>
             <aspectCategory category="service" polarity="conflict"/>
-        </aspectCategories>
-    </sentence>
-    <sentence id="1788">
-        <text>I have reservations about the all you can eat deal, however -- the choices are fairly limited and you can probably order more food than you can eat for less than $18 by just going off the menu.</text>
-        <aspectTerms>
-            <aspectTerm term="choices" polarity="negative" from="67" to="74"/>
-            <aspectTerm term="reservations" polarity="neutral" from="7" to="19"/>
-            <aspectTerm term="food" polarity="neutral" from="126" to="130"/>
-            <aspectTerm term="menu" polarity="neutral" from="188" to="192"/>
-        </aspectTerms>
-        <aspectCategories>
-            <aspectCategory category="food" polarity="conflict"/>
         </aspectCategories>
     </sentence>
     <sentence id="3302">
@@ -26245,7 +26220,6 @@
         <text>A gentleman, maybe the manager, came to our table, and without so much as a smile or greeting asked for our order.</text>
         <aspectTerms>
             <aspectTerm term="manager" polarity="negative" from="23" to="30"/>
-            <aspectTerm term="gentleman" polarity="negative" from="2" to="11"/>
             <aspectTerm term="table" polarity="neutral" from="44" to="49"/>
         </aspectTerms>
         <aspectCategories>
@@ -26619,7 +26593,7 @@
         <aspectTerms>
             <aspectTerm term="bottle of sake" polarity="neutral" from="12" to="26"/>
             <aspectTerm term="edamames" polarity="neutral" from="40" to="48"/>
-            <aspectTerm term="sushi plat" polarity="neutral" from="66" to="76"/>
+            <aspectTerm term="sushi plate" polarity="neutral" from="66" to="77"/>
             <aspectTerm term="sashimi" polarity="neutral" from="94" to="101"/>
         </aspectTerms>
         <aspectCategories>
