@@ -34,8 +34,7 @@ for year in ['semeval14']:
                     count += 1
 
             total = len(train) + len(test) + len(trial)
-            print(flag)
-            print(count)
+            print(year, domain, task, total)
             print('train', len(train_new), len(train)/total)
             print('trial', len(trial), len(trial)/total)
-            print('test', len(trial), len(test)/total)
+            print('test', len(test), len(test)/total)
