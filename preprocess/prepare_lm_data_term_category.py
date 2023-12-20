@@ -9,7 +9,7 @@ gpt2_dir = 'gpt2'
 # preprocess semeval14
 for data_name in ['semeval14']:
     for domain in ['restaurants']:
-        for split in ['train', 'test']:
+        for split in ['train', 'test', 'trial']:
             filename_term = os.path.join(data_dir, data_name, f"{domain}_aspect_term_{split}.json")
             filename_category = os.path.join(data_dir, data_name, f"{domain}_aspect_category_{split}.json")
             data_term = json.load(open(filename_term, 'rt'))
@@ -70,7 +70,7 @@ for data_name in ['semeval14']:
 for data_name in ['semeval16']:
     for domain in ['restaurants']:
         for task in ['sb1']:
-            for split in ['train', 'test']:
+            for split in ['train', 'test', 'trial']:
 
                 filename_term = os.path.join(data_dir, data_name, f"ABSA16_{domain}_{task}_aspect_term_{split}.json")
                 filename_category = os.path.join(data_dir, data_name, f"ABSA16_{domain}_{task}_aspect_category_{split}.json")
